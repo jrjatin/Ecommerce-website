@@ -2,7 +2,7 @@ var express=require('express');
 var mongoose=require('mongoose');
 var mongoosePaginate=require('mongoose-paginate');
 var Schema = mongoose.Schema
-mongoose.connect('mongodb+srv://Utsav:<password>@cluster0.9xtw8o5.mongodb.net/?retryWrites=true&w=majority',{ useUnifiedTopology: true, useNewUrlParser: true  })
+mongoose.connect('mongodb+srv://Jatin:<password>@cluster0.9xtw8o5.mongodb.net/?retryWrites=true&w=majority',{ useUnifiedTopology: true, useNewUrlParser: true  })
 
 const ProductSchema=new Schema({
 
